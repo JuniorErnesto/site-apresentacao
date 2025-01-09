@@ -41,7 +41,7 @@ body {
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 28px;
 }
 
 .apresentacao__conteudo__titulo {
@@ -65,7 +65,7 @@ body {
 .apresentacao__links__navegacao {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 5px;
     width: 50%;
     text-align: center;
     border-radius: 8px;
@@ -89,7 +89,7 @@ body {
 }
 
 .rodape {
-    padding: 20px;
+    padding: 15px;
     text-align: center;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
@@ -98,13 +98,18 @@ body {
     font-weight: 400;
 }
 
+.data {
+    padding: 5px;
+    font-size: 1rem;
+}
+
 .cabecalho {
-    padding: 2% 0 0 20%;
+    padding: 2% 0 0 15%;
 }
 
 .cabecalho__menu {
     display: flex;
-    gap: 80px;
+    gap: 60px;
 }
 
 .cabecalho__menu__link {
@@ -121,7 +126,7 @@ body {
     }
 
 .apresentacao__imagem {
-    width: 50%;
+    width: 40%;
 }
 
 @media (max-width: 1200px) {
