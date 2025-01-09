@@ -78,7 +78,7 @@ body {
     border: 2px solid var(--cor-terciaria);
 }
 
-.apresentacao__links__link:hover {
+.apresentacao__links__navegacao:hover {
     background-color: var(--cor-hover);
 }
 
